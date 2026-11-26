@@ -10,4 +10,6 @@ def test_get_products():
     assert response.json() == [
         {"id": 1, "name": "Eraser", "price": 5},
         {"id": 2, "name": "Pencil", "price": 3},
+	{"id": 3, "name": "Ruler", "price": 1},
+	{"id": 4, "name": "Pen", "price": 7}
     ]
